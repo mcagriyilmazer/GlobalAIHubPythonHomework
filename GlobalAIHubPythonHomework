@@ -1,0 +1,24 @@
+y1=input("Please enter your name: ")
+y2 = input("Please enter your surname: ")
+y3 = int(input("Please enter your age: "))
+y4 = input("Please enter your job: ")
+y5 = int(input("Please enter your account number: "))
+
+
+print("Account[",y5,"]","---", "Name:", y1,"---", "Surname:", y2,"---", "Age:", y3,"---", "Job:", y4)
+
+print("-"*333)
+
+print(type(y1))
+print(type(y2))
+print(type(y3))
+print(type(y4))
+print(type(y5))
+
+print("-"*333)
+
+print(f"Name: {y1}")
+print("Surname: {}".format(y2))
+print("Age: {}".format(y3))
+print("Job: {}".format(y4))
+print("Account number: {}".format(y5))
