@@ -1,4 +1,4 @@
-y1=input("Please enter your name: ")
+y1 = input("Please enter your name: ")
 y2 = input("Please enter your surname: ")
 y3 = int(input("Please enter your age: "))
 y4 = input("Please enter your job: ")
