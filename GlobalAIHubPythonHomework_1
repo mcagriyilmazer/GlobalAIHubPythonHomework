@@ -1,0 +1,12 @@
+name = input("Please enter your name: ")
+last_name = input("Please enter your last name: ")
+age = int(input("Please enter your age: "))
+date_of_birth = input("Please enter your date of birth: ")
+Account = [name, last_name, age, date_of_birth]
+Account1 = ["Name:", "Last name:", "Age:", "Date of birth:"]
+for i,j in zip(Account1, Account):
+    print(i,j)
+if age < 18:
+    print("You can't go out because it's too dangerous")
+else:
+    print("You can go out to the street")  
